@@ -1,0 +1,63 @@
+body {
+  background-color: #778084;
+  background-size: cover;
+  text-align: center;
+  font-family: Helvetica, Arial, sans-serif; }
+
+#map {
+  margin-top: -10px;
+  height: 550px;
+  width: 1000px;
+  background-color: white;
+  display: inline-block; }
+
+.country {
+  fill: #cccccc;
+  stroke: #333333;
+  stroke-width: 0.5; }
+
+.tooltip {
+  background-color: #b2c4b5;
+  border-radius: 2px;
+  height: 65px;
+  width: 160px;
+  text-align: left;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px; }
+
+.toolText {
+  margin-left: 5px;
+  margin-top: 5px;
+  line-height: 130%; }
+
+.circles {
+  opacity: 0.5;
+  stroke: black;
+  stroke-width: 1px; }
+
+.over10m {
+  fill: #1d3aad; }
+
+.over1m {
+  fill: #0b7c21; }
+
+.over500k {
+  fill: #b20808; }
+
+.over250k {
+  fill: #591068; }
+
+.over100k {
+  fill: #997103; }
+
+.over10k {
+  fill: #01ad82; }
+
+.over1k {
+  fill: #c40159; }
+
+.under1k {
+  fill: #ad17d3;
+  opacity: 0.5; }
+
+/*# sourceMappingURL=main.css.map */
